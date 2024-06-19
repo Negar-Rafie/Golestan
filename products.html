@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>محصولات-وب سایت رسمی شرکت گلستان</title>
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <link rel="stylesheet" href="./animate.css/animate.min.css" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="wraper">
+
+      <!-- Start header -->
+      <header
+        class="sticky top-0 z-40 flex flex-col items-center justify-center py-2 pb-4  md:pb-0 lg:flex-row lg:justify-center lg:gap-16 desktop:p-0 desktop:!flex-row"
+                style="background-image: url('./images/gray_background.png');"
+
+      >
+        <div class="relative desktop:w-[170px] desktop:h-[105px]">
+          <img
+            src="https://www.golestan.com/wp-content/uploads/2023/01/logo-fr.png"
+            alt="logo"
+            class="desktop:absolute top-12"
+          />
+        </div>
+        <div
+          class="relative w-full flex flex-col items-start gap-2 lg:w-fit desktop:w-fit"
+        >
+          <label
+            for="nav"
+            class="relative flex justify-center items-center px-2 py-[10px] desktop:hidden"
+          >
+            <span
+              class="block relative w-8 h-[4px] bg-white before:content-[''] before:block before:w-8 before:h-[4px] before:absolute before:-top-2 before:bg-white after:content-[''] after:block after:w-8 after:h-[4px] after:absolute after:top-2 after:bg-white"
+              style="background-image: url('./images/gray_background.png');"
+            ></span>
+          </label>
+          <input type="checkbox" name="nav" id="nav" class="hidden" />
+          <nav
+            class="absolute top-10 right-0 w-full h-0 flex flex-col justify-between items-start  overflow-hidden transition-all duration-300 md:relative md:inset-0 md:flex-row md:justify-center lg:w-fit md:!h-fit md:overflow-visible desktop:relative desktop:h-fit desktop:flex-row desktop:top-0 desktop:overflow-visible"
+            
+          >
+            <div>
+              <a href="./index.html" class="block text-slate-400 hover:text-slate-100 no-underline p-3 lg:p-0"
+                >صفحه اصلی</a
+              >
+            </div>
+            <div class="relative z-[999] group">
+              <a href="#" class="block text-slate-400 hover:text-slate-100 no-underline p-3 lg:p-0"
+                >شرکت گلستان</a
+              >
+              <div
+                class="absolute hidden flex-col gap-4  w-[200px] p-3 desktop:group-hover:flex"
+                style="background-image: url('./images/gray_background.png');"
+
+              >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">معرفی شرکت</a>
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >تاریخچه گلستان</a
+                >
+                <a href="#" class=" block no-underline text-slate-400 hover:text-slate-100 "
+                  >اخبار و اطلاعیه ها</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >مسیولیت های اجتماعی</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >سازمان فروش</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >سازمان فروش</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100  block no-underline">برند ها</a>
+              </div>
+            </div>
+            <div class="relative z-[999] group">
+              <a href="./products.html" class="block text-slate-400 hover:text-slate-100 no-underline p-3 lg:p-0"
+                >محصولات</a
+              >
+              <div
+                class="absolute hidden flex-col gap-4  w-[200px] p-3 desktop:group-hover:flex"
+                style="background-image: url('./images/gray_background.png');"
+
+              >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">چای</a>
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">ناتس</a>
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >ادویه و چاشنی</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">برنج</a>
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >زعفران و زرشک</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">دمنوش</a>
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >حبوبات و غلات</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >عصاره های گیاهی گلستان</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">قند و شکر</a>
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">هاتی نودل</a>
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >سایر محصولات</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">گل کیس</a>
+              </div>
+            </div>
+            <div class="relative z-[999] group">
+              <a
+                href="./weblog.html"
+                class="block text-slate-400 hover:text-slate-100 no-underline p-3 lg:p-0"
+                >وبلاگ</a
+              >
+              <div
+                class="absolute hidden flex-col gap-4  w-[200px] p-3 desktop:group-hover:flex"
+                style="background-image: url('./images/gray_background.png');"
+
+              >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >مجله گلستان</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >فرهنگ غذایی</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >سلامت غذایی</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100block no-underline"
+                  >مسیولیت های اجتماعی</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">تاریخچه</a>
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >میزبانی و دیزاین</a
+                >
+              </div>
+            </div>
+            <div>
+              <a href="#" class="block text-slate-400 hover:text-slate-100 no-underline p-3 lg:p-0"
+                >قرعه کشی</a
+              >
+            </div>
+            <div>
+              <a href="#" class="block text-slate-400 hover:text-slate-100 no-underline p-3 lg:p-0"
+                >استخدام</a
+              >
+            </div>
+            <div class="relative z-[999] group">
+              <a href="#" class="block text-slate-400 hover:text-slate-100 no-underline p-3 lg:p-0"
+                >تماس با ما</a
+              >
+              <div
+                class="absolute hidden flex-col gap-4  w-[200px] p-3 desktop:group-hover:flex"
+                style="background-image: url('./images/gray_background.png');"
+              >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline">دفتر مرکزی</a>
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >صدای مصرف کنندگان</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >سلامت غذایی</a
+                >
+                <a href="#" class="text-slate-400 hover:text-slate-100 block no-underline"
+                  >ارتباط با مشترکین</a
+                >
+              </div>
+            </div>
+            <div>
+              <a href="#" class="block text-slate-400 hover:text-slate-100 no-underline p-3 lg:p-0"
+                >EN</a
+              >
+            </div>
+          </nav>
+        </div>
+        <button
+          class="btn mobile:top-3 w-fit px-[10px] absolute end-1 ml-[10px] text-white rounded-[15px] border-solid bg-black dark:bg-slate-100 dark:text-black dark:font-bold"
+        >
+          night
+        </button>
+      </header>
+      <!-- End header --> 
+
+
+      <!-- Start 1 -->
+      <div class="w-full h-[400px] bg-lime-300/55 flex items-center">
+        <div class="w-[245px] h-[190px] absolute right-[350px]">
+          <p class="text-[30px] m-0 font-bold text-red-600">چای گلستان</p>
+          <p class="text-[19px]  mt-[10px]">سابقه ای به قدمت یک عمر</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 border-solid group mt-[20px]"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img
+          src="./images/products/tea.png"
+          class="mr-[680px] animate__animated animate__fadeInDownBig"
+          alt=""
+        />
+      </div>
+      <!-- End 1 -->
+
+      <!-- Start 2 -->
+      <div class="w-full h-[400px] bg-emerald-800 flex items-center">
+        <div class="w-[245px] h-[190px] absolute right-[700px]">
+          <p class="text-[30px] font-bold m-0 text-white">ناتس گلستان</p>
+          <p class="text-[19px] mt-[10px] text-amber-200">یک میان وعده سالم</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/nuts.png" class="mr-[330px] animate__animated animate__bounceInLeft animate__slow" alt="">
+      </div>
+      <!-- End 2 -->
+
+      <!-- Start 3 -->
+      <div class="w-full h-[400px] bg-indigo-200 flex items-center">
+        <div class="w-[245px] h-[190px] absolute right-[350px]">
+          <p class="text-[30px] font-bold m-0 text-red-600">ادویه و چاشنی</p>
+          <p class="text-[19px] mt-[10px]">یک میان وعده سالم</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/pepper.png" class="mr-[670px] animate__animated animate__bounceInRight animate__slow " alt="">
+      </div>
+      <!-- End 3 -->
+
+      <!-- Start 4 -->
+      <div class="w-full h-[400px] bg-indigo-50 flex items-center">
+        <div class="w-[245px] h-[190px] absolute right-[700px]">
+          <p class="text-[30px] font-bold m-0 text-red-600">برنج گلستان</p>
+          <p class="text-[19px] mt-[10px]">رکن اول غذای ایرانی</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/rice.png" class="mr-[330px] animate__animated animate__bounceInLeft animate__slow" alt="">
+      </div>
+      <!-- End 4 -->
+
+      <!-- Start 5 -->
+      <div class="w-full h-[400px] bg-lime-300/55 flex items-center">
+        <div class="w-[280px] h-[190px] absolute right-[350px]">
+          <p class="text-[30px] font-bold m-0 text-red-600">زعفران و زرشک گلستان</p>
+          <p class="text-[19px] mt-[10px]">سوغات خراسان</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/saffron.png" class="mr-[670px] animate__animated animate__bounceInRight animate__slow" alt="">
+      </div>
+      <!-- End 5 -->
+
+      <!-- Start 6 -->
+      <div class="w-full h-[400px] bg-emerald-800 flex items-center">
+        <div class="w-[245px] h-[190px] absolute right-[700px]">
+          <p class="text-[30px] font-bold m-0 text-white">دمنوش های گلستان</p>
+          <p class="text-[19px] mt-[10px] text-amber-200">یک فنجان طبیعت ناب</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/drink.png" class="mr-[330px] animate__animated animate__bounceInLeft animate__slow" alt="">
+      </div>
+      <!-- End 6 -->
+      <div class="w-full h-[400px] bg-indigo-50 flex items-center">
+        <div class="w-[280px] h-[190px] absolute right-[700px]">
+          <p class="text-[30px] font-bold m-0 text-red-600">حبوبات و غلات گلستان</p>
+          <p class="text-[19px] mt-[10px]">بانک پروتئين و ویتامین</p>
+          <button
+            class=" text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group border-solid mt-[20px]"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/hoboobat.png" class="mr-[330px] animate__animated animate__bounceInLeft animate__slow" alt="">
+      </div>
+      <!-- End 6 -->
+
+      <!-- Start 7 -->
+      <div class="w-full h-[400px] bg-emerald-800 flex items-center">
+        <div class="w-[400px] h-[190px] absolute right-[700px]">
+          <p class="text-[30px] font-bold m-0 text-white">عصاره های گیاهی گلستان</p>
+          <p class="text-[19px] mt-[10px] text-amber-200">به طراوت طبیعت، به شادابی گل‌ها</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/drink.png" class="mr-[330px] animate__animated animate__bounceInLeft animate__slow" alt="">
+      </div>
+      <!-- End 7 -->
+      
+      <!-- Start 8 -->
+      <div class="w-full h-[400px] bg-lime-300/55 flex items-center">
+        <div class="w-[280px] h-[190px] absolute right-[350px]">
+          <p class="text-[30px] font-bold m-0 text-red-600">قند و شکر گلستان</p>
+          <p class="text-[19px] mt-[10px]">همنشين جدانشدنی چای و قهوه</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/suger.png" class="mr-[670px] animate__animated animate__bounceInRight animate__slow" alt="">
+      </div>
+      <!-- End 8 -->
+
+      <!-- Start 9 -->
+      <div class="w-full h-[400px] bg-emerald-800 flex items-center">
+        <div class="w-[400px] h-[190px] absolute right-[700px]">
+          <p class="text-[30px] font-bold m-0 text-white">هاتی نودل</p>
+          <p class="text-[19px] mt-[10px] text-amber-200">یک غذای کامل</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/noodle.png" class="mr-[330px] animate__animated animate__bounceInLeft animate__slow" alt="">
+      </div>
+      <!-- End 9 -->
+
+      <!-- Start 10 -->
+      <div class="w-full h-[400px] bg-indigo-200 flex items-center">
+        <div class="w-[280px] h-[190px] absolute right-[350px]">
+          <p class="text-[30px] font-bold m-0 text-red-600">سایر محصولات</p>
+          <p class="text-[19px] mt-[10px]">گلستان حرفه ای در طعم</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/nabat.png" class="mr-[670px] animate__animated animate__bounceInRight animate__slow" alt="">
+      </div>
+      <!-- End 10 -->
+
+      <!-- Start 11 -->
+      <div class="w-full h-[400px] bg-emerald-800 flex items-center">
+        <div class="w-[400px] h-[190px] absolute right-[700px]">
+          <p class="text-[30px] font-bold m-0 text-red-600">محصولات توینینگز</p>
+          <p class="text-[19px] mt-[10px]">۳۰۰ سال تجربه</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/english.png" class="w-[230px] h-[300px] mr-[330px] animate__animated animate__bounceInRight animate__slow" alt="">
+      </div>
+      <!-- End 11 -->
+
+      <!-- Start 12 -->
+      <div class="w-full h-[300px] bg-lime-300/55 flex items-center">
+        <div class="w-[280px] h-[190px] absolute right-[350px]">
+          <p class="text-[30px] font-bold m-0 text-red-600">محصولات هاتی کارا</p>
+          <p class="text-[19px] mt-[10px]">برندی جوان</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px]  hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/hoty.png" class="mr-[670px] w-[330px] h-[102px] animate__animated animate__bounceInRight animate__slow" alt="">
+      </div>
+      <!-- End 12 -->
+
+      <!-- Start 13 -->
+      <div class="w-full h-[400px] bg-emerald-800 flex items-center">
+        <div class="w-[400px] h-[190px] absolute right-[700px]">
+          <p class="text-[27px] font-bold m-0 text-white">محصولات گل کیس</p>
+          <p class="text-[19px] mt-[10px] text-amber-200">گل‌کیس؛ طعم سلامتی</p>
+          <button
+            class="text-[13px] border-slate-300 border-[1px] w-[135px] h-[40px] rounded-[10px] hover:bg-red-600 group mt-[20px] border-solid"
+          >
+            <a href="" class="no-underline text-slate-500 group-hover:text-white"
+              >اطلاعات بیشتر</a
+            >
+          </button>
+        </div>
+        <img src="./images/products/gol.png" class="mr-[200px] w-[468px] h-[214px] animate__animated animate__bounceInLeft animate__slow" alt="">
+      </div>
+      <!-- End 13 -->
+
+      <!-- start footer -->
+      <div
+        class="h-[100px]  bg-slate-200/90  "
+      >
+        <div class="flex justify-center items-center h-[100px]">
+
+          <div class="cursor-pointer w-[55px] h-[56px] bg-[url('../../images/facebook_background.png')] hover:bg-[url('../../images/facebook_icon.png')]"></div>
+
+          <div class="cursor-pointer w-[55px] h-[56px] bg-[url('../../images/linkdin_background.png')] hover:bg-[url('../../images/linkdin_icon.png')]"></div>
+
+          <div class="cursor-pointer w-[55px] h-[56px] bg-[url('../../images/instagram_background.png')] hover:bg-[url('../../images/instagram_icon.png')]"></div>
+
+          <div class="cursor-pointer w-[55px] h-[56px] bg-[url('../../images/telegram_background.png')] hover:bg-[url('../../images/telegram_icon.png')]"></div>
+
+          <div class="cursor-pointer w-[55px] h-[56px] bg-[url('../../images/aparat_background.png')] hover:bg-[url('../../images/aparat_icon.png')]"></div>
+
+          <div class="cursor-pointer w-[55px] h-[56px] bg-[url('../../images/golestan_background.png')] hover:bg-[url('../../images/golestan_icon.png')]"></div>
+        </div>
+        
+      </div>
+
+      <div class="h-[25px] bg-golestanred"></div>
+
+      <div
+        class="mobile:w-[100%] mobile:h-[1400px] desktop:h-[495px] w-[100%] mobile:flex mobile:justify-center grid grid-rows-[80%_20%]"
+        style="background-image: url('./images/gray_background.png');"
+      >
+        <div class="desktop:w-[695px] desktop:h-[320px] desktop:grid desktop:grid-cols-4 desktop:gap-2 mt-[20px]">
+          <div class="mobile:mb-[25px]">
+            <img src="./images/end_tea.png" class="mobile:pr-[12px] desktop:pr-[25px]" alt="" />
+            <hr class="bg-slate-300 desktop:w-[150px] h-[1px] border-none" />
+            <div class="justify-center flex text-white">چای گلستان</div>
+            <hr class="bg-slate-300 w-[150px] h-[1px] border-none" />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >چای ممتاز هندوستان</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >چای متاز ارل گری</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >چای سیلان عطری</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >چای ممتاز سیلان</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >چای صبحانه گلستان</a
+            >
+          </div>
+
+          <div class="mobile:mb-[25px]">
+            <img src="./images/end_teabag.png" class="pr-[25px]" alt="" />
+            <hr class="bg-slate-300 w-[160px] h-[1px] border-none" />
+            <div class="justify-center flex text-white">تی بگ گلستان</div>
+            <hr class="bg-slate-300 w-[160px] h-[1px] border-none" />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >تی بگ بلک لاین</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >تی بگ ارل گری ارل گری</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >دمنوش نعناع</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >دمنوش بابونه</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >دمنوش چای سبز</a
+            >
+          </div>
+
+          <div class="mobile:mb-[25px]">
+            <img src="./images/end_advie.png" class="pr-[25px]" alt="" />
+            <hr class="bg-slate-300 w-[160px] h-[1px] border-none" />
+            <div class="justify-center flex text-white">ادویه گلستان</div>
+            <hr class="bg-slate-300 w-[160px] h-[1px] border-none" />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >زعفران ممتاز خراسان</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >ادویه کاری</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >ادویه ماست و خیار</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >فلفل سیاه خالص</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >زردچوبه ممتاز</a
+            >
+          </div>
+
+          <div>
+            <img src="./images/end_hoboobat.png" class="pr-[25px]" alt="" />
+            <hr class="bg-slate-300 w-[150px] h-[1px] border-none" />
+            <div class="justify-center flex text-white">حبوبات گلستان</div>
+            <hr class="bg-slate-300 w-[150px] h-[1px] border-none" />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >لوبیا قرمز ممتاز</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >لوبیا چیتی گلستان</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >عدس کانادایی</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >نخود زودپز کرمانشاه</a
+            >
+            <br />
+            <a
+              href=""
+              class="mobile:pr-[15px] text-[14px] no-underline text-stone-400 hover:text-slate-100"
+              >لوبیا سفید گلستان</a
+            >
+          </div>
+        </div>
+
+        <div class="mobile:absolute mobile:mt-[1300px] desktop:flex desktop:justify-center desktop:mt-[400px]">
+          <p class="mobile:text-[12px] desktop:text-[16px] text-stone-400">
+            All Right Reserved Golestan Company 2022-2025
+            <br />
+            <span class="mobile:pr-[35px] desktop:pr-[75px] text-gray-600/100 text-[15px]"
+              >Design By: Golestan Studio</span
+            >
+          </p>
+        </div>
+      </div>
+      <!-- end footer -->
+
+
+      
+
+
+
+
+
+    </div>
+  </body>
+</html>
